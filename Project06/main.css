@@ -1,0 +1,503 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.bg-primary {
+	background-color: #f7903a !important;
+}
+
+.bg-secundary {
+	background-color: #efdcce !important;
+}
+
+.color-text {
+	color: #54565a;
+}
+
+.custom_container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.h-80 {
+	height: 80%;
+}
+
+.h-20 {
+	height: 20%;
+}
+
+.p-t-100 {
+	padding-top: 100px;
+}
+
+.navbar {
+	background-color: #fff;
+	padding-top: 0px !important
+}
+
+.active {
+	background: #f7903a;
+}
+
+.content_nav .navbar-brand {
+	position: absolute;
+	top: 0;
+	height: 150px;
+}
+
+.content_nav ul li a {
+	margin-top: 15px;
+	color: #54565a;
+}
+
+.content_nav ul li a.content_icon img{
+	width: 20px;
+}
+
+header.content_header_section {
+	padding-top: 123px;
+	height: 100vh;
+}
+
+header.content_header_section p {
+	font-size: 20px;
+}
+
+header.content_header_section .image{
+	margin: 0 auto;
+	max-width: 800px;
+	background-image: url('img/visa-o1-1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100%;
+}
+
+.page_section {
+	padding: 3rem 0;
+}
+
+.page_section .content_text {
+	padding: 110px;
+	color: #fff;
+	height: 550px;
+}
+
+.page_section .contet_image {
+	height: 550px;
+}
+
+.page_section .content_text h2 {
+	text-transform: uppercase;
+	font-size: 26px;
+}
+
+.page_section .content_text p {
+	font-size: 20px;
+	line-height: 22px;
+}
+
+.page_section .contet_image img{
+	width: 100%;
+	height: 100%;
+}
+
+.page_title{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 36px;
+	margin-bottom: 25px;
+	font-weight: bold;
+}
+
+.page_locations .content_locations {
+	padding: 80px 60px;
+	color: #54565a;
+}
+
+.page_locations .content_locations img {
+	width: 100%;
+}
+
+.page_locations .content_locations h3 {
+	font-weight: bold;
+	margin: 20px 0;
+	text-transform: uppercase;
+}
+
+.page_locations .content_locations p {
+	margin: 0;
+	color: #8a8686;
+}
+
+.page_menu .item_details {
+	padding: 10px;
+	margin-bottom: 15px;
+}
+
+.page_menu .item_details .item_details_title {
+	margin: 0;
+	text-transform: uppercase;
+	color: #54565a;
+	margin-bottom: 15px;
+}
+
+.page_menu .item_details .content_reset {
+	padding: 10px 30px;
+	color: #8a8686 !important;
+}
+
+.page_menu .item_details .content_reset h3 {
+	margin: 0;
+	text-transform: uppercase;
+}
+
+.page_menu .item_details .content_reset p {
+	font-size: 26px;
+}
+
+.page_reviews {
+	background-image: url('img/pizza_star.png');
+	background-repeat: no-repeat;
+	background-size: 580px;
+	background-position: center;
+}
+
+.page_reviews .custom_padding_top{
+	padding-top: 150px;
+}
+
+.page_reviews .content_info {
+	border: 2px solid #a5a2a291;
+	border-radius: 10px;
+	color: #8a8686;
+}
+
+.page_reviews .content_info {
+	padding: 20px;
+	position: relative;
+}
+
+.page_reviews img {
+	width: 120px;
+}
+
+.page_reviews .content_info.content_info_logo_yelp:after {
+	width: 20px;
+	height: 20px;
+	content:"";
+    border-style: solid;
+    border-width: 0px 20px 25px 20px;
+    border-color: transparent transparent #fff transparent;
+    position: absolute;
+    right: 135px;
+    top: -25px;
+}
+
+.page_reviews .content_info.content_info_logo_yelp:before {
+	width: 20px;
+	height: 20px;
+	content:"";
+    border-style: solid;
+    border-width: 0px 23px 29px 23px;
+    border-color: transparent transparent #cccaca transparent;
+    position: absolute;
+    right: 132px;
+    top: -29px;
+}
+
+.page_reviews .content_info.content_info_logo_yelp .logo_yelp {
+	position: absolute;
+	top: 86px;
+	right: 16px;
+}
+
+.page_reviews .content_info.content_info_logo_grubhub:after {
+	width: 20px;
+	height: 20px;
+	content:"";
+    border-style: solid;
+    border-width: 0px 20px 25px 20px;
+    border-color: transparent transparent #fff transparent;
+    position: absolute;
+    right: 215px;
+    top: -25px;
+}
+
+.page_reviews .content_info.content_info_logo_grubhub:before {
+	width: 20px;
+	height: 20px;
+	content:"";
+    border-style: solid;
+    border-width: 0px 23px 29px 23px;
+    border-color: transparent transparent #cccaca transparent;
+    position: absolute;
+    right: 212px;
+    top: -29px;
+}
+
+.page_reviews .content_info.content_info_logo_grubhub .logo_grubhub  {
+	position: absolute;
+	top: 120px;
+	right: 27px;
+}
+
+.page_reviews .content_info.content_info_logo_tripadvisor:after {
+	width: 20px;
+	height: 20px;
+	content:"";
+    border-style: solid;
+    border-width: 0px 20px 25px 20px;
+    border-color: transparent transparent #fff transparent;
+    position: absolute;
+    right: 135px;
+    top: -25px;
+}
+
+.page_reviews .content_info.content_info_logo_tripadvisor:before {
+	width: 20px;
+	height: 20px;
+	content:"";
+    border-style: solid;
+    border-width: 0px 23px 29px 23px;
+    border-color: transparent transparent #cccaca transparent;
+    position: absolute;
+    right: 132px;
+    top: -29px;
+}
+
+.page_reviews .content_info.content_info_logo_tripadvisor .logo_tripadvisor {
+	position: absolute;
+	top: 115px;
+	right: 30px;
+}
+
+.page_reviews .content_info.content_info_logo_tripadvisor .logo_tripadvisor img {
+	width: 60px;
+}
+
+.page_reviews .content_info.content_info_logo_eat24:after {
+	width: 20px;
+	height: 20px;
+	content:"";
+    border-style: solid;
+    border-width: 0px 20px 25px 20px;
+    border-color: transparent transparent #fff transparent;
+    position: absolute;
+    right: 135px;
+    top: -25px;
+}
+
+.page_reviews .content_info.content_info_logo_eat24:before {
+	width: 20px;
+	height: 20px;
+	content:"";
+    border-style: solid;
+    border-width: 0px 23px 29px 23px;
+    border-color: transparent transparent #cccaca transparent;
+    position: absolute;
+    right: 132px;
+    top: -29px;
+}
+
+.page_reviews .content_info.content_info_logo_eat24 .logo_eat24 {
+	position: absolute;
+	top: 160px;
+	right: 30px;
+}
+
+.page_followUs {
+	margin-bottom: 120px;
+}
+
+.page_followUs h4 {
+	text-align: center;
+}
+
+.page_followUs .content_img img {
+	width: 100%;
+}
+
+@media (min-width: 768px) {
+	.navbar-expand-lg .navbar-collapse.show {
+		display: block !important;
+	}
+	.navbar-expand-lg .navbar-collapse {
+		display: none !important;
+	}
+	
+	.navbar-expand-lg .navbar-nav {
+		flex-direction: column !important;
+	}
+	.navbar-expand-lg .navbar-toggler {
+		display: block;
+	}
+	.container {
+		max-width: 540px;
+	}
+	.navbar {
+		height: 90px;
+	}
+	.content_nav .navbar-collapse {
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 85px;
+		background-color: #fff;
+	}
+	.content_nav .navbar-brand {
+		height: 90px;
+	}
+	.content_nav .navbar-brand img {
+		height: 80px;
+		width: 140px;
+	}
+	.content_nav .navbar-toggler {
+		position: absolute;
+		right: 20px;
+		top: 30px;
+	}
+	.content_nav .navbar-collapse ul li a {
+		margin-left: 15px;
+	}
+	header.content_header_section {
+		height: auto;
+	}
+	header.content_header_section .image {
+		height: 300px;
+	}
+	.page_section .content_text {
+		padding: 0;
+		height: auto;
+	}
+	.page_section .contet_image {
+		height: auto;
+	}
+	.page_locations .content_locations {
+		padding: 20px;
+	}
+	.page_reviews {
+		background-image: none;
+	}
+	.page_reviews .custom_padding_top {
+		padding-top: 20px;
+	}
+	.page_reviews .content_info {
+		margin-bottom: 35px;
+	}
+	.page_reviews .content_info.content_info_logo_yelp .logo_yelp {
+		top: 50px;
+	}
+	.page_reviews .content_info.content_info_logo_grubhub .logo_grubhub {
+		top: 60%;
+	}
+	.page_reviews .content_info.content_info_logo_tripadvisor .logo_tripadvisor {
+		top: 80px;
+	}
+	.page_reviews .content_info.content_info_logo_eat24 .logo_eat24 {
+		top: 100px;
+	}
+	.p-t-100 {
+		padding-top: 0;
+	}
+	.page_followUs {
+		margin-bottom: 40px;
+	}
+}
+
+/* Mobile */
+
+@media (max-width: 767px) {
+	.p-t-100 {
+		padding-top: 0;
+	}
+
+	.navbar {
+		height: 90px;
+	}
+
+	.content_nav .navbar-brand {
+		height: 90px;
+	}
+
+	.content_nav .navbar-brand img {
+		height: 80px;
+		width: 140px;
+	}
+
+	.content_nav .navbar-toggler {
+		position: absolute;
+		right: 20px;
+		top: 30px;
+	}
+
+	.content_nav .navbar-collapse {
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 85px;
+		background-color: #fff;
+	}
+
+	.content_nav .navbar-collapse ul li a {
+		margin-left: 15px;
+	}
+
+	header.content_header_section {
+		height: auto;
+	}
+
+	header.content_header_section .image {
+		height: 300px;
+	}
+
+	.page_section .content_text {
+		padding: 0;
+		height: auto;
+	}
+
+	.page_section .contet_image {
+		height: auto;
+	}
+
+	.page_locations .content_locations {
+		padding: 20px;
+	}
+
+	.page_reviews {
+		background-image: none;
+	}
+
+	.page_reviews .custom_padding_top {
+		padding-top: 20px;
+	}
+	.page_reviews .content_info {
+		margin-bottom: 35px;
+	}
+
+	.page_reviews .content_info.content_info_logo_grubhub .logo_grubhub {
+		top: 70%;
+	}
+
+	.page_reviews .content_info.content_info_logo_tripadvisor .logo_tripadvisor {
+		top: 70%;
+	}
+
+	.page_reviews .content_info.content_info_logo_eat24 .logo_eat24 {
+		top: 70%;
+	}
+
+	.page_reviews .content_info.content_info_logo_yelp .logo_yelp {
+		top: 43%;
+	}
+
+	.page_followUs {
+		margin-bottom: 40px;
+	}
+
+	.page_followUs h4 {
+		font-size: 20px;
+	}
+}

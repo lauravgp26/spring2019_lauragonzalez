@@ -1,0 +1,36 @@
+body{
+	margin:0;
+	padding:0;
+}
+#main{
+	width:800px
+	height:800px;
+	background-color: #ce68ae;
+	margin:0;
+	padding:0;
+}
+.description{
+	display: block;
+	margin:0 auto;
+	text-align: center;
+}
+.centered{
+	display: block;
+	margin:0 auto;
+	text-align: center;
+	font-family: arial;
+}
+#imagery{
+	width:250px;
+}
+#image2{
+	width: 650px;
+}
+#pink{
+	width: 800px;
+	height: 300px;
+	background-color: #844E91
+}
+p em{
+	font-size: 2em;
+}
